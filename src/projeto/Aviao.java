@@ -5,7 +5,7 @@ public class Aviao {
     //Atributos
     
     //Método Construtor
-    public Aviao
+    public Aviao;s
             
     //Método Getter e Setter
     //Método complementar
