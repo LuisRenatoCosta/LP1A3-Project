@@ -7,7 +7,7 @@ public class Passageiro {
     private String cpf;
     
     //Método Construtor
-    public Passageiro(String nome, String cof){
+    public Passageiro(String nome, String cpf){
         this.nome = nome;
         this.cpf = cpf;
     }
