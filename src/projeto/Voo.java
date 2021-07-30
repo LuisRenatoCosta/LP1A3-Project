@@ -1,8 +1,9 @@
+
 package projeto;
 
 public class Voo {
     
-    //Atributos
+     //Atributos
     private Aviao aeronave;
     private int nro;
     private String data;
@@ -35,5 +36,13 @@ public class Voo {
     public void setHora(String hora){
         this.hora = hora;
     }
+    
+    //Método toString
+    @Override
+    public String toString(){
+        return "Voo {" + "aeronave = " + aeronave + ", nro = " + nro + ", data = " + data + ", hora = " + hora + "}";
+    }
+    
+    
     
 }

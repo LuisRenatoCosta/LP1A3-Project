@@ -8,7 +8,7 @@ public class Aeronave {
     //Método Construtor
     public Aeronave(String modelo){
         this.modelo = modelo;
-    };
+    }
     
     //Método Getter e Setter
     public String getModelo() {
@@ -16,10 +16,14 @@ public class Aeronave {
     }
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }   
+
+    //Método toString
+    @Override
+    public String toString(){
+        return "Aeronave {" + "modelo = " + modelo + "}";
     }
-    
-    
-    
+
     
     
 }
